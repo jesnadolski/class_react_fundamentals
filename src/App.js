@@ -1,23 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import NameProp from './components/NameProp'
+import Contacts from './components/Contacts'
+import State from './components/State'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <NameProp name="Jessica"/>
+    <Contacts name="Jessica" age="43" school="ElevenFifty" graduationYear="2021"/>
+    <p>.................</p>
+    <State />
     </div>
   );
 }
