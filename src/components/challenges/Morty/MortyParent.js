@@ -28,7 +28,7 @@ function fetchMorty(){
 
     return ( 
         <div>
-            <button onClick={fetchMorty}>Fetch Morty</button>
+            <button onClick={fetchMorty}>Fetch Morty</button> 
         
             <CardColumns>
                 {displayCards()}
